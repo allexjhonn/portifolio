@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            color:  rgb(51, 51, 51);
+        }
+
+        header{
+            width: 100%;
+            height: 100px;
+            background-color:  rgb(51, 51, 51);
+            color:  white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+
+        nav{
+            position: fixed;
+            top: 0px;
+            left:0px;
+            width: 10%;
+            height: 100vh;
+            background-color:  rgb(51, 51, 51);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+        }
+
+        nav a{
+            width: 100%;
+            height: 100px;
+            background-color:  rgb(51, 51, 51);
+            border-radius: 10px 0px 0px 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            transition: 0.2s ease-in-out;
+        }
+
+        nav a:hover{
+            color: rgb(133, 0, 221);
+            background-color:  white;
+        }
+
+        main{
+            height: 1900px;
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-top: 50px;
+            margin-left: 100px;
+            gap: 30px;
+            line-height: 35px;
+            font-size: 20px;
+            gap: 150px;
+        }
+
+        #sobre{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            width: 100%;
+            height: 300px;
+            box-shadow: 10px 10px 10px rgba(51, 50, 50, 0.5);
+        }
+
+        #profissional{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            width: 100%;
+            height: 650px;
+            box-shadow: 10px 10px 10px rgba(51, 50, 50, 0.5);
+        }
+
+        #sonhos{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            width: 100%;
+            height: 350px;
+            box-shadow: 10px 10px 10px rgba(51, 50, 50, 0.5);
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Jhonny Allex dos Santos Silva</h1>
+        <h3>Bem vindo ao meu portifólio!</h3>
+    </header>
+
+    <nav>
+        <a href="#">Pessoal</a>
+        <a href="#profissional">Profissional</a>
+        <a href="#sonhos">Sonhos</a>
+    </nav>
+    <main>
+
+        <div id="sobre">
+            <h1>Sobre mim</h1>
+            <p>Prazer, meu nome é Jhonny Allex e tenho 20 anos. <br>
+            Tenho o ensino médio finalizado e atualmente estou cursando Técnico de Informática. <br>
+            Meu maior hobby atualmente é estudar programação, pra ser mais específico HTML e <br>CSS. Posso dizer que criar
+            sites é muito interessante pra mim.</p>
+        </div>
+
+        <div id="profissional">
+            <h2>Profissional</h2>
+            <p>Atualmente trabalhando na empresa ABRA Retail, localizada no KM36 da Raposo. <br>
+            Meu setor na empresa é na gráfica e eu realizo a pré impressão dos arquivos(recebo <br>
+            arquivos dos clientes e deixo-o configurado para impressão) e também na impressão dos mesmos após configurados. <br>
+            Antes de entrar no rumo da gráfica já trabalhei antes, como: <br>Auxiliar de caixa em uma padaria do meu bairro;<br>
+            Auxiliar de produção em uma empresa de Embalagens; <br>
+            Auxiliar de expedição, foi o primeiro cargo que eu tive na empresa que estou atualmente.
+            </p>
+
+            <p>
+                Hoje, além de trabalhar na gráfica, curso T.I. na escola The Highway. <br>
+                este é meu segundo semestre e cada módulo me sinto ainda mais confiante <br>
+                na minha carreira na área. Já cursei informática básica também na the Highway,<br>
+                onde apesar de já conhecer a internet e computadores, foi o lugar que eu dei o pontapé <br>
+                inicial nos meus conhecimentos. Tenho também cursos online de Photoshop avançado (HotMart) <br>
+                e alguns cursinhos no youtube, onde estudei por conta em casa.
+            </p>
+            
+        </div>
+
+        <div id="sonhos">
+            <h1>Sonhos</h1>
+            <p>
+                De um tempo pra cá, já venho realizando algumas metas, mas daqui pra frente ainda tenho <br>
+                objetivos a alcançar profissionalmente que são: <br>
+                Conseguir uma oportunidade na área de T.I. com preferência maior no Design, ou DEV Web; <br>
+                Desenvolver projetos e enriquecer meu portifólio;
+                Finalizar o curso Técnico de Informática.
+            </p>
+        </div>
+    </main>
+</body>
+</html>
